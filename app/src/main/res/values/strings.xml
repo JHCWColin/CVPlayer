@@ -12,6 +12,9 @@
     <string name="frame_rate_5s">5 秒一帧</string>
     <string name="frame_rate_original">原始帧率</string>
     <string name="settings_done">完成</string>
+    <string name="home_motivation_one">每一节认真学完的课，都是向目标靠近的一步。</string>
+    <string name="home_motivation_two">不必着急，保持自己的节奏，持续前进就很了不起。</string>
+    <string name="settings_motivation">今天的努力不会白费，慢慢积累，也会成为闪闪发光的进步。</string>
     <string name="empty_hint">尚未导入视频。\n点击右上角「导入文件夹」，选择存放网课视频的文件夹。</string>
     <string name="scanning">正在扫描视频…</string>
     <string name="scan_failed">读取文件夹失败，请重新导入</string>

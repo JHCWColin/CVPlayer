@@ -93,6 +93,20 @@
     </RadioGroup>
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/btn_outline"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/settings_motivation"
+        android:textColor="@color/text_primary"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+    <TextView
         android:id="@+id/settings_done"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
