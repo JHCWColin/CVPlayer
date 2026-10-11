@@ -1,0 +1,33 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.inkbox.videoplayer'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.inkbox.videoplayer'
+        // 目标设备为 Android 8.1（API 27）
+        minSdk 27
+        targetSdk 27
+        versionCode 1
+        versionName '1.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    // 读取 SAF 文件夹树（ACTION_OPEN_DOCUMENT_TREE）
+    implementation 'androidx.documentfile:documentfile:1.0.1'
+}

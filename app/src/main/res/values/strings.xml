@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">墨水瓶视频播放器</string>
+    <string name="import_folder">导入文件夹</string>
+    <string name="refresh">刷新</string>
+    <string name="settings">设置</string>
+    <string name="settings_title">播放设置</string>
+    <string name="frame_rate_title">画面刷新频率</string>
+    <string name="frame_rate_hint">较低频率可减少墨水屏刷新；原始帧率依视频帧率抽帧。</string>
+    <string name="frame_rate_1s">1 秒一帧</string>
+    <string name="frame_rate_3s">3 秒一帧</string>
+    <string name="frame_rate_5s">5 秒一帧</string>
+    <string name="frame_rate_original">原始帧率</string>
+    <string name="settings_done">完成</string>
+    <string name="empty_hint">尚未导入视频。\n点击右上角「导入文件夹」，选择存放网课视频的文件夹。</string>
+    <string name="scanning">正在扫描视频…</string>
+    <string name="scan_failed">读取文件夹失败，请重新导入</string>
+    <string name="no_videos_found">该文件夹中没有找到视频文件</string>
+    <string name="video_count">找到 %1$d 个视频</string>
+    <string name="no_folder_picker">设备上没有可用的文件夹选择器</string>
+    <string name="cannot_play">无法播放：%1$s</string>
+
+    <string name="back">返回</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="previous">上一个</string>
+    <string name="next">下一个</string>
+    <string name="rewind">后退 10 秒</string>
+    <string name="forward">快进 10 秒</string>
+    <string name="playback_speed">播放速度</string>
+    <string name="playback_speed_option">%1$s 倍速</string>
+    <string name="playback_speed_unavailable">当前视频无法调整播放速度</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 纯色反馈，不使用水波纹 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/row_pressed" android:state_pressed="true" />
+    <item android:drawable="@android:color/transparent" />
+</selector>
